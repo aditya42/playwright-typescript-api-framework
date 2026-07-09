@@ -1,6 +1,6 @@
 # Playwright TypeScript API Automation Framework
 
-GitHub-ready API automation framework using Playwright Test, TypeScript, reusable API clients, environment configuration, tagging, HTML/JSON reporting, linting, type checking, and GitHub Actions CI.
+API automation framework using Playwright Test, TypeScript, reusable API clients, environment configuration, tagging, HTML/JSON reporting, linting, type checking, and GitHub Actions CI.
 
 Playwright supports API testing through `APIRequestContext`, which can send HTTP requests directly from the test runner. This framework uses that model so API tests can run without launching a browser and can share the same Playwright reporting and CI workflow as UI tests.
 
@@ -141,17 +141,6 @@ CI performs:
 4. ESLint check
 5. Playwright API test execution
 6. Upload Playwright HTML and JSON reports
-
-## Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial Playwright TypeScript API automation framework"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
 
 ## How to Extend
 
